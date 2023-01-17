@@ -1,0 +1,138 @@
+body{
+    background-color: aqua;
+}
+.logo,.footlogo{
+    width: 60px;
+    height: 70px;
+}
+header{
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+.headername{
+    height:;
+    width: ;
+    background-color: lightgreen;
+}
+.navigation{
+  
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: flex-end;
+    align-items: center;
+    background-color: lightpink;
+}
+.navigation a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: aqua;
+    background-color: antiquewhite;
+}
+.navigation a:hover{
+    color: white;
+}
+.sign{
+   color: aqua;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.sign:hover{
+    color: white;
+}
+
+
+
+.planyourtrip{
+
+}
+
+
+
+
+.section1{
+    display: flex;
+    flex-direction: column;
+
+    width: 20vw;
+    height: 13vw;
+    background-color: lightpink;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+.section2 pre{
+    margin-right: 50px;
+}
+form{
+    margin-right: 50px;
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 13vw;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    align-items: flex-end;
+   
+}
+
+
+
+
+
+
+
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    margin-top: 100px;
+    width: 100vw;
+    height: 70px;
+}
+.footlogo{
+    margin-left: 20px;
+}
+.footername{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color:lightgray;
+}
+.footernavigation{
+    /* 
+     justify-content: flex-end;*/
+    background-color:lightblue;
+    text-align: center;
+width: 80vw;
+   margin-left: 0px;
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+.footernavigation a{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: bisque;
+    color: aqua;
+}
+.footernavigation a:hover{
+    color: white;
+}
+.copy{
+    background-color: lightslategray;
+}

@@ -1,0 +1,166 @@
+body{
+    background-color: aqua;
+    background-image: url("cssjs/cool-background.png");
+}
+.logo,.footlogo{
+    width: 60px;
+    height: 70px;
+}
+.header1{
+    height: 70px;
+    margin-left: ;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 230, 191);
+}
+.header1 h2{
+    height:;
+    width: ;
+    background-color: background-color: rgb(218, 230, 191);
+}
+.navigation{
+  
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: flex-end;
+    align-items: center;
+    background-color: background-color: rgb(218, 230, 191);
+}
+.navigation a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: aqua;
+    background-color: background-color: rgb(218, 230, 191);
+}
+.navigation a:hover{
+    color: white;
+}
+.sign{
+   color: aqua;
+    display: flex;
+    flex-direction: row;
+    background-color: background-color: rgb(218, 230, 191);
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.sign:hover{
+    color: white;
+}
+.section1{
+    /*
+ display: flex;
+ flex-direction: column;
+   align-items: center;
+    */
+    margin-left: 5vw;
+    width: 15vw;
+    background-color: lightblue;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: rgb(94, 22, 22);
+    padding-bottom:20px ;
+    display: inline-block;
+    margin-right: 300px;
+    padding: 20px;
+    padding-left: 20px;
+
+}
+.option1 h2{
+   color: rgb(218, 230, 191);
+    font-size: 60px;
+        position: absolute;
+        bottom: 100px;
+        left: 16px;
+      
+ }.form1{
+    width: 15vw;
+}
+.option1 img{
+   
+    width: 100%;
+    height: 600px;
+    background-color: lightblue;
+}
+.option1 h2{
+    margin-bottom: 10px;
+}
+.intro p{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.place{
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+
+ justify-content: space-around;
+}
+.place img{
+width: 30vw;
+height: 20vw;
+}
+.place > div{
+    width: 30vw;
+    border-width: 4px;
+    border-color: aquamarine;
+    border-style: solid;
+}
+.place p{
+   
+}   
+.place a{
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(218, 230, 191);
+    margin-top: 100px;
+    width: 100vw;
+    height: 70px;
+}
+.footlogo{
+    margin-left: 20px;
+}
+h3{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color: rgb(218, 230, 191);
+}
+.footernavigation{
+    /* 
+     justify-content: flex-end;*/
+ background-color: rgb(218, 230, 191);
+    text-align: center;
+width: 80vw;
+   margin-left: 0px;
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+.footernavigation a{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: rgb(218, 230, 191);
+    color: aqua;
+}
+.footernavigation a:hover{
+    color: white;
+}
+.copy{
+    background-color:rgb(218, 230, 191);
+}

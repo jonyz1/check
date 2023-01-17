@@ -1,0 +1,128 @@
+body{
+    background-color: aqua;
+}
+.logo,.footlogo1{
+    width: 60px;
+    height: 70px;
+}
+
+.header1{
+    height: 70px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+.header1 h2{
+    height:;
+    width: ;
+    background-color: lightgreen;
+}
+
+.allnav{
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: flex-end;
+    align-items: center;
+    background-color: lightpink;
+}
+.navigation a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: aqua;
+    background-color: antiquewhite;
+}
+.navigation a:hover{
+    color: white;
+}
+.sign{
+   color: aqua;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.sign:hover{
+    color: white;
+}
+
+.section1{
+    background-color: lightpink;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.section2{
+    background-color: lightpink;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.section3{
+    background-color: lightpink;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.section1 h2,.section2 h2,.section3 h2{
+    width: 200px;
+    background-color: bisque;
+}
+.section1 p,.section2 p,.section3 p{
+    display: inline-block;
+    width: 400px;
+    background-color: lightgray;
+}
+.imag{
+    width: 600px;
+    height: 500px;
+}
+.aboutimg{
+    
+    width: 100%;
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    margin-top: 100px;
+    width: 100vw;
+    height: 70px;
+}
+.footlogo{
+    margin-left: 20px;
+}
+.footername{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color:lightgray;
+}
+.footernavigation{
+    /* 
+     justify-content: flex-end;*/
+    background-color:lightblue;
+    text-align: center;
+width: 80vw;
+   margin-left: 0px;
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+.footernavigation a{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: bisque;
+    color: aqua;
+}
+.footernavigation a:hover{
+    color: white;
+}
+.copy{
+   
+    background-color: lightslategray;
+}

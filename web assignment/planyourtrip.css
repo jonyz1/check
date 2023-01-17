@@ -1,0 +1,186 @@
+body{
+    background-color: aqua;
+}
+.logo,.footlogo{
+    width: 60px;
+    height: 70px;
+}
+.header1{
+    height: 70px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+}
+.header1 h2{
+    height:;
+    width: ;
+    background-color: lightgreen;
+}
+.navigation{
+  
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: flex-end;
+    align-items: center;
+    background-color: lightpink;
+}
+.navigation a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: aqua;
+    background-color: antiquewhite;
+}
+.navigation a:hover{
+    color: white;
+}
+.sign{
+   color: aqua;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.sign:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+.section1{
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-left: 5vw;
+    width: 40%;
+    height: 520px;
+    background-color:rgb(238, 42, 71) ;
+}
+form{
+    height: 100%;
+    width: 100%;
+
+    background-color: rgb(109, 174, 174);
+}
+.section1 input{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    height: 50px;
+    width: 90%;
+    background-color: lightpink;
+}
+.section1 label{
+  
+    font-size: 20px;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+#place{
+    border-radius: 8px;
+    font-size: large;
+    background-color: brown;
+}
+#Price{
+    border-radius: 8px;
+    font-size: large;
+}
+#starts{
+    border-radius: 8px;
+    font-size: large;
+    background-color: brown
+}
+#time{
+    border-radius: 8px;
+    font-size: large;
+    background-color: brown
+}
+
+
+
+
+
+
+
+
+table{
+    
+}
+
+
+th,td{
+    font-size: 35px;
+    text-align: center;
+width: 200px;
+height: 100px;
+    border-style: solid;
+    background-color: rgb(236, 152, 41);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    background-color: lightpink;
+    margin-top: 100px;
+    width: 100vw;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.footlogo{
+    margin-left: 20px;
+}
+.footername{
+    width: 300px;
+    height: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+    background-color:lightgray;
+}
+.footernavigation{
+    /* 
+     justify-content: flex-end;*/
+    background-color:lightblue;
+    text-align: center;
+width: 80vw;
+   margin-left: 0px;
+    display: block;
+    align-items: center;
+    padding-top: 20px;
+   
+}
+.footernavigation a{
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: bisque;
+    color: aqua;
+}
+.footernavigation a:hover{
+    color: white;
+    background-color:lightgray;
+}
+.copy{
+    background-color: lightslategray;
+}
